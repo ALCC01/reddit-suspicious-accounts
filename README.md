@@ -1,6 +1,6 @@
 # 2018 Reddit Suspicious Accounts Release
 
-On April 11, 2018 Reddit released its [2017 transparency report][1], along with a [list of 994 accounts][2] that the site's administrators suspect belonged to the Russian Internet Research Agency.
+On April 11, 2018 Reddit released its [2017 transparency report][1], along with a [list of 944 accounts][2] that the site's administrators suspect belonged to the Russian Internet Research Agency.
 
 >   To give you more insight into our findings, [here is a link to all 944 accounts][2]. We have decided to keep them visible for now, but after a period of time the accounts and their content will be removed from Reddit. We are doing this to allow moderators, investigators, and all of you to see their account histories for yourselves.
 >
@@ -8,7 +8,7 @@ On April 11, 2018 Reddit released its [2017 transparency report][1], along with 
 
 ## Harvesting mode
 
-This dataset is an archive all public comments, submissions and user data beloging to these accounts, retrieved on Aprile 11, 2018 at ~17:00 CEST (GMT+2) from the Reddit API and stored as CSV. As of the extraction, **one of the 994 accounts had been taken down** and a 404 status was returned for its profile. Each sheet contains selected and relevant fields from the objects returned by the API.
+This dataset is an archive all public comments, submissions and user data beloging to these accounts, retrieved on Aprile 11, 2018 at ~17:00 CEST (GMT+2) from the Reddit API and stored as CSV. As of the extraction, **one of the 944 accounts had been taken down** and a 404 status was returned for its profile. Each sheet contains selected and relevant fields from the objects returned by the API.
 
 The data has been harvested through the excellent [PRAW](https://praw.readthedocs.io/en/latest/) library. A `log.txt` file is made available.
 
@@ -24,7 +24,7 @@ The following files are made available:
 
 ## Legal
 
-Comment releases [have been a thing for a long time][4]. All information provided were public available and searchable as of the extraction. No data is apparently classifiable as PPI. Nothing in the [Reddit API TOS][5] explicitly prohibits harvesting publicly available data. All legal stuff should be directed at inbox [/at/] albertocoscia [/dot/] me.
+Comment releases [have been a thing for a long time][4]. All information provided were publicly available and searchable as of the extraction. No data is apparently classifiable as PPI. Nothing in the [Reddit API TOS][5] explicitly prohibits harvesting publicly available data. All legal stuff should be directed at inbox [/at/] albertocoscia [/dot/] me.
 
 Where applicable, this data is released under a [CC0][6] license and is public domain.
 
